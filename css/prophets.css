@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+h1, h2, p{
+    text-align: center;
+}
+
+main {
+    margin: 10px;
+    background-color: #b9b9cc;
+   
+    box-shadow: 0 0 50px black;
+}
+
+img {
+    width: 200px;
+    box-shadow: 0 0 50px black;
+}
