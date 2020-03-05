@@ -12,6 +12,10 @@ h1, h2, p{
     text-align: center;
 }
 
+h1, h2 {
+    color: #7a7ae4;
+}
+
 main {
     margin: 10px;
     background-color: #b9b9cc;
