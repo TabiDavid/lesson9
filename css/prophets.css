@@ -13,20 +13,21 @@ h1, h2 {
 
 main {
  
-    margin: auto;
-    background-color: #b9b9cc;
+    margin: 0 auto;
+    background-color: #e0e0ee;
     box-shadow: 0 0 50px black;
-    max-width: 90%;
+    max-width: 100%;
     padding: 10px;
 }
 .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 auto;
+    
     background-color: #b9b9cc;
-    max-width: 90%;
+    max-width: 100%;
     padding: 10px;
+    margin: auto;
 
 }
 
@@ -37,7 +38,7 @@ section {
 }
 
 img {
-    width: 250px;
+    width: 315px;
     box-shadow: 0 0 50px black;
 }
 footer {
