@@ -1,11 +1,6 @@
-body {
-    text-align: center;
+* {
 
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+box-sizing: border-box;
 }
 
 h1, h2, p{
@@ -17,13 +12,37 @@ h1, h2 {
 }
 
 main {
-    margin: 10px;
+ 
+    margin: auto;
     background-color: #b9b9cc;
-   
     box-shadow: 0 0 50px black;
+    max-width: 90%;
+    padding: 10px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #b9b9cc;
+    max-width: 90%;
+    padding: 10px;
+
+}
+
+section {
+    padding: 10px;
 }
 
 img {
-    width: 200px;
+    width: 250px;
     box-shadow: 0 0 50px black;
 }
+footer {
+    text-align: center;
+    padding: 20px;
+    width: 900px;
+    background-color: #7a7ae4;
+    margin: auto;
+}
+
